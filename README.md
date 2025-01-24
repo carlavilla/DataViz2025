@@ -13,4 +13,4 @@ To Do:
 	l Get familiar with different types of data
 		○ Conceptual understanding of visuals: here and here
 		○ The codes are there for you to use
-Matplot codes are the most stable ![image](https://github.com/user-attachments/assets/016b9734-985b-47ae-9b27-01023d18969a)
+Matplot codes are the most stable
