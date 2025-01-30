@@ -1,1 +1,20 @@
 !wget -q -O TranspoData.csv https://drive.google.com/file/d/1IkOEiA4flFPww4tbGGQzp3Nx-QQKm092/view?usp=drive_link
+import time, os, sys, re #basics
+import zipfile, json, datetime, string
+import numpy as np
+from statistics import
+
+import matplotlib.pyplot as plt
+
+import pandas as pd
+import pandas_datareader as pdr
+from pandas_datareader import wb
+from pandas.io.formats.style import Styler
+s4 = Styler(df4, uuid_len=0, cell_ids=False)
+
+import urllib
+
+from google.colab import files
+import seaborn as sns
+from google.colab import data_table
+data_table.enable_dataframe_formatter()
