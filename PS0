@@ -18,3 +18,12 @@ from google.colab import files
 import seaborn as sns
 from google.colab import data_table
 data_table.enable_dataframe_formatter()
+
+dat=pd.read_csv('TranspoData.csv')
+dat.columns
+dat.sample(frac=0.25, replace=False, random_state=4)
+dat["Height"].mode()
+dat["Self Esteem"].value_counts(dropna=False)
+dat["Self Esteem"].hist()
+pd.crosstab(dat["Height"], dat["Self Esteem"])
+dat.plot(kind='scatter', y='Self Esteem', x='Height')
